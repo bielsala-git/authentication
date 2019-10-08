@@ -34,7 +34,7 @@ if(isset($_POST['register'])){
         if($result) echo "user register succefully";
         else echo "we cannot register de user";
         $_SESSION['username'] = $username;
-        $_SESSION['sufcces'] = "Youre logged in";
+        $_SESSION['succes'] = "Youre logged in";
         
  
     }
