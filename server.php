@@ -36,7 +36,7 @@ if(isset($_POST['register'])){
         $_SESSION['username'] = $username;
         $_SESSION['succes'] = "Youre logged in";
         
-
+ 
     }
 
 
